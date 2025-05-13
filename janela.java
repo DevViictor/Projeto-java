@@ -19,8 +19,7 @@ public class janela{
         //Fecha a janela
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        //Torna a janela visivel
-        window.setVisible(true);
+       window.setResizable(false);
         
         // definindo o layout da tela 
         window.setLayout(null);
@@ -61,6 +60,9 @@ public class janela{
         window.add(camposenha);
         window.add(login);
         window.add(texto1);
+
+         //Torna a janela visivel
+         window.setVisible(true);
 
         
         
