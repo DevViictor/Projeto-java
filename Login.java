@@ -1,31 +1,30 @@
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-public class janela{
+public class Login{
     public static void main(String[] args) {
 
         // Configuração da Janela :
 
-        //Cria a jenala
-        JFrame window = new JFrame("window");
-       
-        
-        //Define o tamanho da janela
-        window.setBounds(0,0,800,600);
+        //Cria a jenala :
+
+        JFrame window = new JFrame("Login");
+
+        window.setBounds(600,120,800,600);
 
         //Fecha a janela
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-       window.setResizable(false);
+        window.setResizable(false);
         
         // definindo o layout da tela 
         window.setLayout(null);
-
-
-        //Conteudos a janela :
+        
+          //Conteudos a janela :
 
 
         //texto a tela : 
@@ -70,3 +69,10 @@ public class janela{
 
     }
 }
+    
+    
+
+
+
+
+
